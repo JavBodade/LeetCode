@@ -13,9 +13,7 @@ public:
         {
             int oldvalue=operations[i][0];
             int newvalue=operations[i][1];
-            
             int index=mp[oldvalue];
-            // cout<<index<<" "<<oldvalue<<" "<<newvalue<<endl;
             nums[index]=newvalue;
             mp[newvalue]=index;
             
